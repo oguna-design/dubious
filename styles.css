@@ -1,0 +1,100 @@
+/* =========================================================
+   Zawadi Otieno — Practice Portfolio Stylesheet
+   You write this file stage by stage. Follow the guide:
+   "[C] CSS Practice 1 - Guided Portfolio Restyle.md"
+   Each stage below is where that stage's code goes.
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   STAGE 0 — Fonts + Reset + Base
+   (import fonts, reset box model, set page background & body)
+   --------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+  color: #52525b;
+  font-family: Inter, helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------
+   STAGE 1 — Design tokens (:root variables) + Typography
+   (colors & fonts as variables, headline/body/label fonts)
+   --------------------------------------------------------- */
+:root {
+  --bg: #fafafa;
+  --ink: #09090b;
+  --text: #52525b;
+  --text-strong: #18181b;
+  --muted: #a1a1aa;
+  --border: #e4e4e7;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+  color: #09090b;
+  line-height: 1.15;
+}
+.eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: #a1a1aa;
+}
+
+/* ---------------------------------------------------------
+   STAGE 2 — Layout: the .container + section spacing
+   --------------------------------------------------------- */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* ---------------------------------------------------------
+   STAGE 3 — Header / sticky frosted nav
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 4 — Hero (two-tone headline + subhead)
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 5 — Buttons (primary + secondary pills)
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 6 — About section + portrait
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 7 — Work cards
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 8 — Resume: table + emerald proof box
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 9 — Contact form
+   --------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+   STAGE 10 — Footer + polish (selection, scrollbar, responsive)
+   --------------------------------------------------------- */
